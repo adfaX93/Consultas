@@ -11,8 +11,8 @@
 <body>
     <main class="container-fluid">
         <h1 class="text-center">Formulario Cliente</h1>
-        <form class="formulario" id="formulario">
-            <div class="form-group" id="grupo__documento">
+        <form action="/webapp-consultas/registro-cliente"  class="formulario" id="formulario">
+            <div class="form-group" id="grupo__nombre">
                 <label for="nombre" class="formulario__label">Nombre</label>
                 <div class="formulario__grupo-input">
                     <input type="text" class="formulario__input form-control" name="nombre" id="nombre" placeholder="Alex">
@@ -20,7 +20,7 @@
                 </div>
                 <p class="formulario__input-error">El nombre solo debe contenter letras</p>  
             </div>
-            <div class="form-group" id="grupo__documento">
+            <div class="form-group" id="grupo__apellido">
                 <label for="apellido" class="formulario__label">Apellido</label>
                 <div class="formulario__grupo-input">
                     <input type="text" class="formulario__input form-control" name="apellido" id="apellido" placeholder="Fretes">
@@ -28,7 +28,7 @@
                 </div>
                 <p class="formulario__input-error">El apellido solo debe contenter letras</p>  
             </div>
-            <div class="form-group" id="grupo__documento">
+            <div class="form-group" id="grupo__cedula">
                 <label for="cedula" class="formulario__label">Número de Cédula</label>
                 <div class="formulario__grupo-input">
                     <input type="number" class="formulario__input form-control" name="cedula" id="cedula" placeholder="Tu número de cédula">
@@ -36,7 +36,7 @@
                 </div>
                 <p class="formulario__input-error">El numero de cédula tiene solo acepta numeros de 6 y 7 dígitos</p>  
             </div>
-            <div class="form-group" id="grupo__documento">
+            <div class="form-group" id="grupo__telefono">
                 <label for="telefono" class="formulario__label">Número de Teléfono</label>
                 <div class="formulario__grupo-input">
                     <input type="number" class="formulario__input form-control" name="telefono" id="telefono" placeholder="Tu número de teléfono">

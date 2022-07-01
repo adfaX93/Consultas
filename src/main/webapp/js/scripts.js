@@ -29,7 +29,7 @@ const validarFormulario = (e) => {
             validarCampo(expresiones.cedula, e.target, 'cedula');
         break;
         case "telefono":
-            validarCampo(expresiones.cedula, e.target, 'telefono');
+            validarCampo(expresiones.telefono, e.target, 'telefono');
         break;
     }
 };
@@ -75,4 +75,4 @@ formulario.addEventListener('submit', (e) =>{
     }else{
         document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
     }
-});w
+});
